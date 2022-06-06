@@ -1,0 +1,26 @@
+{
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "jest",
+    "testwatch":"jest  --watchAll"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worashf/javascript-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worashf/javascript-practice/issues"
+  },
+  "homepage": "https://github.com/worashf/javascript-practice#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
