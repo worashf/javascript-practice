@@ -27,6 +27,15 @@ test("Shoulld be falsy",()=>{
     expect(functions.checkValue(undefined)).toBeFalsy()
 })
 // truthy
-test("Shoulld be falsy",()=>{
+test("Shoulld be truthy",()=>{
     expect(functions.checkValue(1)).toBeTruthy()
 })
+
+
+// toEqual
+test('User should be Worash object', () => {
+    expect(functions.createUser()).toEqual({
+      firstName: 'worash',
+      lastName: 'abocherugn'
+    });
+  });
